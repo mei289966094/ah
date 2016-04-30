@@ -1,3 +1,7 @@
+// jquery获取select选择的文本与值 
+// 获取select 选中的 text : $("#ddlregtype").find("option:selected").text(); 
+// 获取select选中的 value: $("#ddlregtype ").val(); 
+// 获取select选中的索引: $("#ddlregtype ").get(0).selectedindex; 
 //定义价格
 var pQt=20; //青铜价格
 var pBy=35; //白银价格
@@ -17,6 +21,53 @@ var zB=150;//直播包天价格
 var discount="60%";
 //页面加载后动态加载价格
 $(function (){
+
+
+$("#result2").click(function(){
+
+var	 num12=$("#num12").find("option:selected").text();
+var key2=$("#key2 ").val();
+if( num12=="新号定位赛"){
+ num12=xDw;
+}
+else{
+if( $("#num12").find("option:selected").text()=="上赛季青铜"){
+ num12=xDw;
+}
+else
+{
+	if( $("#num12").find("option:selected").text()=="上赛季黄金"){
+	 num12=hj;
+}
+else{
+	if( $("#num12").find("option:selected").text()=="上赛季铂金"){
+ num12=bj;
+}
+else{
+if( $("#num12").find("option:selected").text()=="上赛季钻石"){
+num12=zs;
+}
+else{
+	if( $("#num12").find("option:selected").text()=="上赛季白银"){
+ num12=xDw;
+}
+}	
+}
+}
+}
+}
+var num12=Math.floor(num12*key2);
+
+$(".showPrice2").html(num12).css({"font-size":"100px","color":"red","line-height":"300px","text-align":"center"});
+
+});
+
+
+
+
+
+
+
 	$("#priceQingtong").html(pQt);
 	$("#priceBaiying").html(pBy);
 	$("#priceHuangjing").html(pHj);
@@ -42,5 +93,10 @@ $(function (){
     animateOut: "bounceOut"
   });
 });
+
+
+
 }
 )
+
+

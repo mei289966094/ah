@@ -151,3 +151,25 @@ margin: 5px auto;
 color: #fff;}
 #explain a:hover{background-color: red;border-radius: 5px;}
 em{color: red;}
+.shangS{background-color: rgba(0,128,128,.3);
+	text-align: center;
+color: #fff;
+font-size: 15px;
+font-family: "微软雅黑" , "宋体" , "黑体" ,Arial;
+}
+.ssjDw{background-color: rgba(0,128,128,.5);
+	text-align: center;
+color: #fff;
+font-size: 15px;
+font-family: "微软雅黑" , "宋体" , "黑体" ,Arial;
+}
+button{display: block;height: 50px;width: 300px;margin: 0 auto;background-color: green;border-radius: 5px;
+color: #fff;
+font-family: "微软雅黑" , "宋体" , "黑体" ,Arial;
+font-size: 20px;}
+button:hover{background-color: red;}
+.showPrice2{margin: 10px auto;
+height: 300px;
+width: 300px;
+background-color: rgba(0,128,128,.8);}
+.showPrice2 p{line-height: 300px;font-size: 50px; text-align: center;color: yellow;}
