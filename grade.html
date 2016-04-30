@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=gbk">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta name="format-detection" content="telephone=no">
 
-<title>������λ</title>
+<title>代练段位</title>
 <style>
 a:link,a:visited
 {
@@ -40,7 +40,7 @@ body {
 </style>
 <body>
 <h1 id="fancy">
-�������-������λ�۸��ѯ
+阿宏代练-代练段位价格查询
 </h1>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
@@ -69,15 +69,15 @@ input[type="button"]
   <script type="text/javascript">
    function getResult0(){
      var num0;
- //��ȡ��һ��������ֵ
+ //获取第一个输入框的值
     var num10=document.getElementById("num10").value;
-//��ȡ�ڶ���������ֵ
+//获取第二个输入框的值
     var num20=document.getElementById("num20").value;
-//��ȡ�����б��е������
+//获取下拉列表中的运算符
     var operator0=document.getElementById("operator0").value;
 	 var bufen=document.getElementById("bufen").value;
 	  var key0=document.getElementById("key0").value;
-//��ȡͨ����������ѡ���ֵ���ı�Ӽ��˳������㷨��
+//获取通过下拉框来选择的值来改变加减乘除的运算法则
 var key0=parseFloat(key0);
 var num10=parseFloat(num10);
 var num20=parseFloat(num20);
@@ -88,16 +88,16 @@ var num20=parseFloat(num20);
 if(!(isNaN(num10) && isNaN(num20)&& isNaN(key0))){
  if((bufen=="++")&&(num10<="80"))
  {num0=num0+20; }
-//��ͭ�۸�����
+//青铜价格区间
  else if((bufen=="++")&&(num10<="255"))
  {num0=num0+35; }
-//�����۸����䣻
+//白银价格区间；
  else if((bufen=="++")&&(num10<="505"))
  {num0=num0+50; }
-//�ƽ�۸����䣻
+//黄金价格区间；
  else if((bufen=="++")&&(num10<="855"))
  {num0=num0+70; }
-//����۸����䣻
+//铂金价格区间；
  else if((bufen=="++")&&(num10<="955"))
  {num0=num0+100; }
  else if((bufen=="++")&&(num10<="1085"))
@@ -108,114 +108,114 @@ if(!(isNaN(num10) && isNaN(num20)&& isNaN(key0))){
  {num0=num0+190; }
  else if((bufen=="++")&&(num10<="1665"))
  {num0=num0+230; }
- //��ʯ�۸�
+ //钻石价格；
 }
 
 
 
-//���ý��������ֵ    
+//设置结果输入框的值    
 document.getElementById("result0").value=num0;
    }
   </script>
   <select size="1" id='key0'>
-  <option value="1.3">��ŷ����</option>
-<option value="1.2">�氲</option>
-<option value="1.2">ŵ����˹</option>
-<option value="1.2">��¶���</option>
-<option value="1.2">�ȶ�������</option>
-<option value="1.2">��������</option>
-<option value="1.2">���׶�׿��</option>
-<option value="1">��������</option>
+  <option value="1.3">艾欧尼亚</option>
+<option value="1.2">祖安</option>
+<option value="1.2">诺克萨斯</option>
+<option value="1.2">班德尔城</option>
+<option value="1.2">比尔吉沃特</option>
+<option value="1.2">德玛西亚</option>
+<option value="1.2">费雷尔卓德</option>
+<option value="1">其他大区</option>
  </select>
    <select id='num10'>
-<option value='0'>��ͭ5</option>
-<option value='20'>��ͭ4</option>
-<option value='40'>��ͭ3</option>
-<option value='60'>��ͭ2</option>
-<option value='80'>��ͭ1</option>
-<option value="115">����5</option>
-<option value="150">����4</option>
-<option value="185">����3</option>
-<option value="220">����2</option>
-<option value="255">����1</option>
-<option value="305">�ƽ�5</option>
-<option value="355">�ƽ�4</option>
-<option value="405">�ƽ�3</option>
-<option value="455">�ƽ�2</option>
-<option value="505">�ƽ�1</option>
-<option value="575">����5</option>
-<option value="645">����4</option>
-<option value="715">����3</option>
-<option value="785">����2</option>
-<option value="855">����1</option>
-<option value="955">��ʯ5</option>
-<option value="1085">��ʯ4</option>
-<option value="1245">��ʯ3</option>
-<option value="1435">��ʯ2</option>
-<option value="1665">��ʯ1</option>
+<option value='0'>青铜5</option>
+<option value='20'>青铜4</option>
+<option value='40'>青铜3</option>
+<option value='60'>青铜2</option>
+<option value='80'>青铜1</option>
+<option value="115">白银5</option>
+<option value="150">白银4</option>
+<option value="185">白银3</option>
+<option value="220">白银2</option>
+<option value="255">白银1</option>
+<option value="305">黄金5</option>
+<option value="355">黄金4</option>
+<option value="405">黄金3</option>
+<option value="455">黄金2</option>
+<option value="505">黄金1</option>
+<option value="575">铂金5</option>
+<option value="645">铂金4</option>
+<option value="715">铂金3</option>
+<option value="785">铂金2</option>
+<option value="855">铂金1</option>
+<option value="955">钻石5</option>
+<option value="1085">钻石4</option>
+<option value="1245">钻石3</option>
+<option value="1435">钻石2</option>
+<option value="1665">钻石1</option>
   </select> 
    <select id='operator0'>
-<option value="#">��</option>
+<option value="#">到</option>
    </select>
      <select id='num20'>
-<option value='0'>��ͭ5</option>
-<option value='20'>��ͭ4</option>
-<option value='40'>��ͭ3</option>
-<option value='60'>��ͭ2</option>
-<option value='80'>��ͭ1</option>
-<option value="115">����5</option>
-<option value="150">����4</option>
-<option value="185">����3</option>
-<option value="220">����2</option>
-<option value="255">����1</option>
-<option value="305">�ƽ�5</option>
-<option value="355">�ƽ�4</option>
-<option value="405">�ƽ�3</option>
-<option value="455">�ƽ�2</option>
-<option value="505">�ƽ�1</option>
-<option value="575">����5</option>
-<option value="645">����4</option>
-<option value="715">����3</option>
-<option value="785">����2</option>
-<option value="855">����1</option>
-<option value="955">��ʯ5</option>
-<option value="1085">��ʯ4</option>
-<option value="1245">��ʯ3</option>
-<option value="1435">��ʯ2</option>
-<option value="1665">��ʯ1</option>
+<option value='0'>青铜5</option>
+<option value='20'>青铜4</option>
+<option value='40'>青铜3</option>
+<option value='60'>青铜2</option>
+<option value='80'>青铜1</option>
+<option value="115">白银5</option>
+<option value="150">白银4</option>
+<option value="185">白银3</option>
+<option value="220">白银2</option>
+<option value="255">白银1</option>
+<option value="305">黄金5</option>
+<option value="355">黄金4</option>
+<option value="405">黄金3</option>
+<option value="455">黄金2</option>
+<option value="505">黄金1</option>
+<option value="575">铂金5</option>
+<option value="645">铂金4</option>
+<option value="715">铂金3</option>
+<option value="785">铂金2</option>
+<option value="855">铂金1</option>
+<option value="955">钻石5</option>
+<option value="1085">钻石4</option>
+<option value="1245">钻石3</option>
+<option value="1435">钻石2</option>
+<option value="1665">钻石1</option>
    </select> 
   <select id='bufen' width:153px>
-   <option value='--'>������       </option>
-   <option value='++'>����         </option> 
+   <option value='--'>不补分       </option>
+   <option value='++'>补分         </option> 
      
   </select>
  
-   <input type='button' value='�������۸� ' onClick="getResult0();" /> 
+   <input type='button' value='点击计算价格 ' onClick="getResult0();" /> 
    </select>
    <input type='text' id='result0' value="" size="5"/>  
 </p>
 </hr>
 <p>
-  <span style="color: #FFF">֧����ʽһ��<span style="font-size: 16px; color: #F00;"><strong>����֧�����Ƽ���</strong></span></br>
-��һ������ϵ�ͷ�QQ2048820794���߿ͷ�QQ1811699047 ��ѯ����������������</br>
-�ڶ��������Ա����̣�<a href="https://shop126542119.taobao.com/" target="_blank">�������</a>
-��������д����ע�����֧����</br>
-       ��һԪһ��������Ǯ������ټ���</br>
-       ���磺��ŷ����-����1���ƽ�5</br>
-             ��ɫ�������ܲ�����</br>
-             �ʺţ�88888888</br>
-             ���룺ahongdailian</br>
+  <span style="color: #FFF">支付方式一：<span style="font-size: 16px; color: #F00;"><strong>店铺支付（推荐）</strong></span></br>
+第一步：联系客服QQ2048820794或者客服QQ1811699047 资询并计算代练所需费用</br>
+第二步：到淘宝店铺：<a href="https://shop126542119.taobao.com/" target="_blank">阿宏代练</a>
+代练信填写到备注里完成支付。</br>
+       （一元一件，多少钱就买多少件）</br>
+       例如：艾欧尼亚-白银1到黄金5</br>
+             角色名：红萝卜扣肉</br>
+             帐号：88888888</br>
+             密码：ahongdailian</br>
 </span></p>
 <p>
-  <span style="color: #FFF">֧����ʽ����<span style="font-size: 14px; color: #F00;"><strong>ֱ��֧��������</strong></span></br>
-��һ������ϵ�ͷ�QQ2048820794���߿ͷ�QQ1811699047 ��ѯ����������������</br>
-�ڶ��������֧�����ʺţ�1811699047@qq.com  У�飺*�ź�</br>
-��������������Ϣֱ�Ӹ��߿ͷ�
+  <span style="color: #FFF">支付方式二：<span style="font-size: 14px; color: #F00;"><strong>直接支付宝付款</strong></span></br>
+第一步：联系客服QQ2048820794或者客服QQ1811699047 资询并计算代练所需费用</br>
+第二步：付款到支付宝帐号：1811699047@qq.com  校验：*信红</br>
+第三步：代练信息直接告诉客服
 </span></p>
-<p><span style="color: #FFF">���κ����������ϵ����ͷ���������������֧����ʽ����������ڰ�ȫ���⣬</br>
-���Ǿ��Բ��������ƭ�˿͵���Ϊ���������Ĺ�����������겻��Q�ң�</br>
-��������֧����ʽ֧������ͷ���ϵ��</br>
-��ע�����־���Ӯһ�ּ�ʤ������15�㣡
+<p><span style="color: #FFF">有任何问题可以联系本店客服，无论您用哪种支付方式，都不会存在安全问题，</br>
+我们绝对不会出现欺骗顾客的行为，请您放心购买代练。本店不收Q币，</br>
+如用其他支付方式支付请与客服联系！</br>
+备注：补分就是赢一局加胜点少于15点！
 </span></br>
 
 </p>
@@ -226,11 +226,11 @@ function checkCookies()
 {
 if (navigator.cookieEnabled==true)
 	{
-	alert("�µ�Ԥ�Ƶڶ��쿪ʼ��\nһ��һ����λ\n���ܽ��Ȼ����")
+	alert("下单预计第二天开始打\n一天一个段位\n可能进度会更快")
 	}
 else
 	{
-	alert("�µ�Ԥ�Ƶڶ��쿪ʼ��\nһ��һ����λ\n���ܽ��Ȼ����")
+	alert("下单预计第二天开始打\n一天一个段位\n可能进度会更快")
 	}
 }
 </script>
