@@ -33,5 +33,13 @@ $(function (){
 	$("#xinD").html(xDw);
 	$("#pBaotian").html(zB);
 	$("#zJingji").html(discount);
+	//对话框文件
+	$('#question').click(function(){
+  $.gDialog.alert("代练定位赛包赢八局--少于八局可协商退款--大段价格按下一段计算--比如：黄金1到铂金5，按铂金段位计算--有任何问题可以咨询QQ2048820794", {
+    title: "声明",
+    animateIn: "bounceIn",
+    animateOut: "bounceOut"
+  });
+});
 }
 )

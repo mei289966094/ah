@@ -8,8 +8,14 @@
 <link rel="stylesheet" href="css/main.css" type="text/css">
 <link rel="stylesheet" href="css/reset.css" type="text/css">
 <script src="http://libs.baidu.com/jquery/1.9.0/jquery.js">	</script>
-<script src="js/main.js" type="text/javascript">
-</script>
+<script src="js/main.js" type="text/javascript"></script>
+<!-- 对话框引入文件 -->
+<!-- <link href="src/normalize.css" rel="stylesheet" type="text/css"> -->
+<link rel="stylesheet" href="src/animate.min.css">
+<link rel="stylesheet" href="src/jquery.gDialog.css">
+<script src="src/jquery.js"></script>
+<script src="src/jquery.gDialog.js"></script>
+<!-- ———————— -->
 </head>
 <body>
 <div class="container">
@@ -18,9 +24,9 @@
 	  </div>
 	<div class="content">
 				<div class="wrap">
-					<div class="tp"><a href="#">包天价格查询</a></div>
-					<div class="tp"><a href="#">段位价格查询</a></div>
-					<div class="tp"><a href="#">定位价格查询</a></div>
+					<div class="tp"><a href="#" target="_blank">包天价格查询</a></div>
+					<div class="tp"><a href="#" target="_blank">段位价格查询</a></div>
+					<div class="tp"><a href="#" target="_blank">定位价格查询</a></div>
 				</div>
 			<table class="ui-table" width="400" id="price">
 					<caption class="tabH"><h2>参考价格表</h2></caption>
@@ -57,13 +63,11 @@
 						<td>直播包天价格<span>￥</span><span id="pBaotian"></span></td>
 						<td>只打晋级赛收费<span>￥</span><span id="zJingji"></span></td>
 					</tr>
-
-
-		 	</table>	
+		 	</table>
 	
 	</div>
    <div class="footer">
-   	<p>&copy; 2016 B.M<span>本页面仅用作代练价格查询</span> <span>联系QQ2048820794</span><span><a href="#">意见反馈</a></span></p>
+   	<p>&copy; 2016 B.M<span>本页面仅用作代练价格查询</span> <span>联系QQ2048820794</span><span><a href="#">意见反馈</a></span><button id="question">?</button></p>
    </div>
 </div>
 </body>

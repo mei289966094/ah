@@ -1,7 +1,7 @@
 *{margin: 0,padding: 0;}
-.container{position:relative;width:100%;min-height:100%;}
-.header{
-	font-size: 25px;
+.container{position:relative;width:100%;min-height:100%;margin:0;padding: 0;}
+.header{margin: 0;padding: 0;
+	font-size: 25px !important;
 	font-family: "微软雅黑" , "宋体" , "黑体" ,Arial;
 }
 
@@ -94,4 +94,17 @@ color: red; }
 
 span a{color: rgba(255,255,255,.5);}
 span a:hover{color:red;
+text-decoration: none;}
+#question{
+	display: inline-block;
+	background-color: #008080;
+	border-radius: 50%;
+	font-size: 15px;
+	height: 20px;
+	width: 20px;
+	line-height: 20px;
+
+}
+p a{color: rgba(255,255,255,.5);}
+p a:hover{color:red;
 text-decoration: none;}
