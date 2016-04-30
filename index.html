@@ -4,56 +4,67 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta name="format-detection" content="telephone=no">
-<style> 
-div
-{
-	text-align: center;
-	border: 2px solid #a1a1a1;
-	padding: 10px 40px;
-	background: #CC00FF;
-	width: 100px;
-	border-radius: 25px;
-	-moz-border-radius: 25px; /* 老的 Firefox */
-	color: #F00;
-}
-
-body,td,th {
-	color: #F00;
-}
-body {
-	background-color: #66C;
-}
-a:link {
-	text-decoration: none;
-	color: #9FC;
-}
-a:visited {
-	text-decoration: none;
-	color: #9FC;
-}
-a:hover {
-	text-decoration: none;
-}
-a:active {
-	text-decoration: none;
-}
-</style>
-
-
 <title>阿宏代练</title>
+<link rel="stylesheet" href="css/main.css" type="text/css">
+<link rel="stylesheet" href="css/reset.css" type="text/css">
+<script src="http://libs.baidu.com/jquery/1.9.0/jquery.js">	</script>
+<script src="js/main.js" type="text/javascript">
+</script>
 </head>
 <body>
+<div class="container">
+	  <div class="header">
+	  	<h1>阿宏代练价格自助查询系统</h1>
+	  </div>
+	<div class="content">
+				<div class="wrap">
+					<div class="tp"><a href="#">包天价格查询</a></div>
+					<div class="tp"><a href="#">段位价格查询</a></div>
+					<div class="tp"><a href="#">定位价格查询</a></div>
+				</div>
+			<table class="ui-table" width="400" id="price">
+					<caption class="tabH"><h2>参考价格表</h2></caption>
+				
+					<tr>
+					<td>青铜每段<span>￥</span><span id="priceQingtong"></span></td>
+					<td>白银每段<span>￥</span><span id="priceBaiying">￥</span></td>
+					</tr>
+					<tr>
+					<td>黄金每段<span>￥</span><span id="priceHuangjing"></span></td>
+					<td>铂金每段<span>￥</span><span id="priceBojing"></span></td>
+					</tr>
+					<tr>
+					<td>铂金1到钻石5<span>￥</span><span id="zuanshi5"></span></td>
+					<td>钻石5到钻石4<span>￥</span><span id="zuanshi4"></span></td>
+					</tr>
+					<tr>
+					<td>钻石4到钻石3<span>￥</span><span id="zuanshi3"></span></td>
+					<td>钻石3到钻石2<span>￥</span><span id="zuanshi2"></span></td>
+					</tr>
+					<tr>
+						<td>上赛季青铜定位<span>￥</span><span id="dQingtong"></span></td>
+						<td>上赛季白银定位<span>￥</span><span id="dBaiying"></span></td>
+						</tr>
+						<tr>
+						<td>上赛季黄金定位<span>￥</span><span id="dHangjin"></span></td>
+						<td>上赛季铂金定位<span>￥</span><span id="dBojin"></span></td>
+					</tr>
+					<tr>
+						<td>上赛季钻石定位<span>￥</span><span id="dZuanshi"></span></td>
+						<td>新号定位<span>￥</span><span id="xinD"></span></td>
+						</tr>
+						<tr>
+						<td>直播包天价格<span>￥</span><span id="pBaotian"></span></td>
+						<td>只打晋级赛收费<span>￥</span><span id="zJingji"></span></td>
+					</tr>
 
-<div><strong style="color: #9FC" ><a href="./dingwei.html" target="_blank">代练定位赛</a></strong></div>
-</br>
 
-<div><strong style="color: #9FC"><a href="./grade.html" target="_blank">代练段位</a></strong></div>
-</br>
-
-<div><strong style="color: #9FC"><a href="./baotian.html" target="_blank">直播包天</a></strong></div>
-</br>
-
-
+		 	</table>	
+	
+	</div>
+   <div class="footer">
+   	<p>&copy; 2016 B.M<span>本页面仅用作代练价格查询</span> <span>联系QQ2048820794</span><span><a href="#">意见反馈</a></span></p>
+   </div>
+</div>
 </body>
-
 </html>

@@ -1,0 +1,97 @@
+*{margin: 0,padding: 0;}
+.container{position:relative;width:100%;min-height:100%;}
+.header{
+	font-size: 25px;
+	font-family: "微软雅黑" , "宋体" , "黑体" ,Arial;
+}
+
+.footer{margin:0 auto;
+position:fixed;
+bottom:0px;
+left:0px;
+font-size: 15px;
+font-family: "微软雅黑" , "宋体" , "黑体" ,Arial;
+background-color: #00303e;
+width: 100%;
+color: #fff;
+}
+.footer p{text-align: center;display: inline-block;margin: 0 auto;}
+p span{margin: 0 30px;}
+h1{
+	margin: 0 auto;
+	text-align: center;
+	color: #fff;
+	background-color: #00303e;
+}
+ 
+h2{
+	margin:0 auto;
+	
+}
+
+/*代练类型*/
+@media all and (min-width:1080px) 	{
+	.wrap{
+	margin: 0 auto;
+	width: 1000px;
+}
+	.tp{
+	width: 300px;
+	margin: 1px 1px;
+	line-height: 50px;
+	font-size: 20px;
+	border-radius: 5px;
+	font-family: "微软雅黑" , "宋体" , "黑体" ,Arial;
+	text-align: center;
+	background-color:#008080;
+	color: #EE82EE;
+	display: inline-block;
+}
+.tp a{
+	color: rgba(255,255,255,.5);
+}
+.tp a:hover{
+color:red;
+font-size: 25px;
+text-decoration: none;
+}
+}
+@media all and (max-width:1080px)    {
+	.wrap{
+	margin: 0 auto;
+}
+	.tp{
+	width: 300px;
+	margin: 1px auto;
+	line-height: 50px;
+	font-size: 20px;
+	border-radius: 5px;
+	font-family: "微软雅黑" , "宋体" , "黑体" ,Arial;
+	text-align: center;
+	background-color:#008080;
+	color: #EE82EE;
+}
+.tp a{
+	color: rgba(255,255,255,.5);
+}
+.tp a:hover{
+color:red;
+font-size: 25px;
+text-decoration: none;
+}
+}
+/*价格表格*/
+			.ui-table {margin: 20px auto; border-collapse: collapse; font-size: 12px; text-align: center; color: #666;}
+			.ui-table th, .ui-table td {padding: 4px 8px; border: 1px solid #ccc;}
+			.ui-table th {background-color: #f0f0f0;}
+.tabH{
+	font-size: 25px;
+	font-family: "微软雅黑" , "宋体" , "黑体" ,Arial;
+	text-align: center;
+}
+td span { 
+color: red; }
+
+span a{color: rgba(255,255,255,.5);}
+span a:hover{color:red;
+text-decoration: none;}
