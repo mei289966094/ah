@@ -5,8 +5,22 @@
 	font-family: "微软雅黑" , "宋体" , "黑体" ,Arial;
 }
 
+.pay{
+	width: 300px;
+	margin: 1px auto;
+	line-height: 50px;
+	font-size: 20px;
+	border-radius: 5px;
+	font-family: "微软雅黑" , "宋体" , "黑体" ,Arial;
+	text-align: center;
+	background-color:#32CD32;
+	color: #fff;
+}
+.pay a{display: block;border-radius: 5px;color: #fff; }
+.pay a:hover{text-decoration: none;background-color: #FF0000;color: #fff;}
+
 .footer{margin:0 auto;
-position:fixed;
+position: fixed;
 bottom:0px;
 left:0px;
 font-size: 15px;
@@ -108,3 +122,17 @@ text-decoration: none;}
 p a{color: rgba(255,255,255,.5);}
 p a:hover{color:red;
 text-decoration: none;}
+/*包天页面样式*/
+h3{
+background-color: #00303e !important;/* 先设置盒子的背景颜色*/
+border-radius: 6px 6px 6px 6px !important;/* 再设置盒子border的圆角属性*/
+color: #ffffff;/* 再设置文字颜色，文字高度，行高，文字阴影，*/
+height: 25px;
+line-height: 25px;
+text-shadow: 2px 2px 3px #222222;
+box-shadow: 0 0 0 1px #5F5A4B, 1px 1px 6px 1px rgba(10, 10, 0, 0.5);/* 设置盒子的阴影，外边距，内边距*/
+margin: 15px 0 !important;
+padding: 5px 0 5px 20px;
+font-size: 17px;/* 设置字体 ，!important 是css样式优先执行*/
+font-weight: bold;
+font-family: "微软雅黑" , "宋体" , "黑体" ,Arial; "}
