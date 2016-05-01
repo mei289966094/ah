@@ -1,6 +1,10 @@
 *{margin: 0,padding: 0;}
+#result0{display: block;height: 50px;width: 300px;margin: 0 auto;background-color: green;border-radius: 5px;
+color: #fff;
+font-family: "微软雅黑" , "宋体" , "黑体" ,Arial;
+font-size: 20px;}
+#result0:hover{background-color: red;}
 #explain{
-
 	background-color:#F0F8FF;
 	border-radius: 5px;
 	font-size: 20px;
@@ -123,7 +127,7 @@ color: red; }
 span a{color: rgba(255,255,255,.5);}
 span a:hover{color:red;
 text-decoration: none;}
-#question{
+#question,#showBf{
 	display: inline-block;
 	background-color: #008080;
 	border-radius: 50%;
@@ -168,8 +172,43 @@ color: #fff;
 font-family: "微软雅黑" , "宋体" , "黑体" ,Arial;
 font-size: 20px;}
 button:hover{background-color: red;}
-.showPrice2{margin: 10px auto;
+.showPrice2,.showPrice3{margin: 10px auto;
 height: 300px;
 width: 300px;
 background-color: rgba(0,128,128,.8);}
-.showPrice2 p{line-height: 300px;font-size: 50px; text-align: center;color: yellow;}
+.showPrice2 p,.showPrice3 p{line-height: 300px;font-size: 50px; text-align: center;color: yellow;}
+
+ #ddw1{background-color: rgba(186,85,211,.2);
+	text-align: center;
+color: #00303e;
+font-size: 15px;
+font-family: "微软雅黑" , "宋体" , "黑体" ,Arial;
+border-radius: 3px;
+margin: 1px 1px;
+}
+#ddw2{background-color: rgba(186,85,211,.4);
+	text-align: center;
+color: #00303e;
+font-size: 15px;
+font-family: "微软雅黑" , "宋体" , "黑体" ,Arial;
+border-radius: 3px;
+margin: 1px 1px;
+}
+#ddw3{background-color: rgba(186,85,211,.6);
+	text-align: center;
+color: #00303e;
+font-size: 15px;
+font-family: "微软雅黑" , "宋体" , "黑体" ,Arial;
+border-radius: 3px;
+margin: 1px 1px;
+}
+#ddw4{background-color: rgba(186,85,211,.8);
+	text-align: center;
+color: #00303e;
+font-size: 15px;
+font-family: "微软雅黑" , "宋体" , "黑体" ,Arial;
+border-radius: 3px;
+margin: 1px 1px;
+}
+
+
